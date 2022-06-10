@@ -1,0 +1,182 @@
+header {
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+#about {
+    margin-top: 3rem;
+}
+
+.about__container {
+    display: grid;
+    padding-bottom: 3rem;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__container:hover .about__me-image{
+    transform: rotateY(180deg);
+}
+
+.about__me {
+    width: 100%;
+   
+    aspect-ratio: 1/1;
+    perspective: 1000px;
+}
+
+.about__me-image {
+    position: relative;
+
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.about__me-image-front, .about__me-image-back {
+    
+    position: absolute;
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.about__me-image-front img, .about__me-image-back img {
+    border-radius: 2rem 2rem 2rem 2rem ;
+}
+
+.about__me-image-back {
+    transform: rotateY(180deg);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+}
+
+.about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light)
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/* call to action CTA */
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* social icons */
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 20rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* scroll button */
+.scroll__down {
+    position: absolute;
+    right: 3rem;
+    bottom: 26em;
+    transform: rotate( 90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+
+
+/* Media queries (medium)*/
+@media screen and (max-width: 1024px) {
+
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+ 
+    }
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+ 
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* Media queries (small)*/
+@media screen and (max-width: 600px) {
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+
+    .about__me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+}
+
