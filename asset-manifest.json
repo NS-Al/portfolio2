@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio2/static/css/main.8a18dd41.css",
+    "main.js": "/portfolio2/static/js/main.aa63fcb9.js",
+    "static/media/me_about.jpg": "/portfolio2/static/media/me_about.f716e70fa814aa1b0fdb.jpg",
+    "static/media/me.jpg": "/portfolio2/static/media/me.3adea151725dc8ad0421.jpg",
+    "static/media/let_math4.png": "/portfolio2/static/media/let_math4.4f04bcdf3d12da748aa9.png",
+    "static/media/let_math1.png": "/portfolio2/static/media/let_math1.51e4ca7f4047d88e71f4.png",
+    "static/media/let_math3.png": "/portfolio2/static/media/let_math3.1059c64d8fd36e1a4c43.png",
+    "static/media/let_math2.png": "/portfolio2/static/media/let_math2.6a2ff62ccb353fd7f10d.png",
+    "static/media/portfolio5.png": "/portfolio2/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/cv.pdf": "/portfolio2/static/media/cv.3fff04ab71c9f79df1f6.pdf",
+    "static/media/evade2.png": "/portfolio2/static/media/evade2.68fe747882173ac6ad48.png",
+    "static/media/evade1.png": "/portfolio2/static/media/evade1.d02c9e6e29237a3a1aaf.png",
+    "static/media/portfolio2.jpg": "/portfolio2/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/portfolio2/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/portfolio2/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/portfolio2/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/portfolio2/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/chicken3.png": "/portfolio2/static/media/chicken3.5bca80019b6f41fc0897.png",
+    "static/media/chicken4.png": "/portfolio2/static/media/chicken4.746ca94e360f1eb9d1c8.png",
+    "static/media/chicken2.png": "/portfolio2/static/media/chicken2.230bff12a0dbbd60ecb7.png",
+    "static/media/chicken1.png": "/portfolio2/static/media/chicken1.f9fb7a09d63ddc663b3c.png",
+    "index.html": "/portfolio2/index.html",
+    "main.8a18dd41.css.map": "/portfolio2/static/css/main.8a18dd41.css.map",
+    "main.aa63fcb9.js.map": "/portfolio2/static/js/main.aa63fcb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a18dd41.css",
+    "static/js/main.aa63fcb9.js"
+  ]
+}
